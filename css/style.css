@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffe6c7;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+}
+
+
+main {
+  max-width: 90vw;
+  margin: auto;
+  padding:0;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin-right: 1rem;
+}
+img {
+width: 5rem;
+height: auto;
+margin: auto;
+display: block;
+}
+
+h1 {
+  color: #FF6522;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 1rem 0;
+}
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 15rem auto;
+  height: 15rem auto;
+  background: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.card--avatar {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.card--smallavatar {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+.card--video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  controls;
+}
+.card--title {
+  color: #222;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+
+}
+.card--topic {
+  color: #222;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  background: #FF6522;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+
+}
+.card--paragraph {
+
+  text-align: justify;
+  color: #222;
+  font-weight: 600;
+  font-size: 1.0rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+
+
+}
+.card--link {
+  text-decoration: none;
+  background: #FF6522;
+  color: #fff;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+
+}
+
+.wide {
+  position:relative;
+  width:90vw;
+  margin:0 auto;
+}
